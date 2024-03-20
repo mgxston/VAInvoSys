@@ -25,7 +25,7 @@ class ClientDAO {
 
     public ClientDAO() {
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/?user=root", "root", "Gaston7214mySQL");
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/VAInvoSys", "root", "Gaston7214mySQL");
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -104,7 +104,7 @@ class ServiceDAO {
 
     public ServiceDAO() {
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/?user=root", "root", "Gaston7214mySQL");
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/VAInvoSys", "root", "Gaston7214mySQL");
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -185,7 +185,7 @@ class InvoiceDAO {
 
     public InvoiceDAO() {
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/?user=root", "root", "Gaston7214mySQL");
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/VAInvoSys", "root", "Gaston7214mySQL");
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -271,7 +271,7 @@ class AnalyticsService {
 
     public AnalyticsService() {
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/?user=root", "root", "Gaston7214mySQL");
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/VAInvoSys", "root", "Gaston7214mySQL");
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -366,7 +366,7 @@ public class VAInvoiceSystem {
 
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -428,7 +428,7 @@ public class VAInvoiceSystem {
 
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
@@ -461,7 +461,7 @@ public class VAInvoiceSystem {
 
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
