@@ -25,7 +25,11 @@ class ClientDAO {
 
     public ClientDAO() {
         try {
+<<<<<<< HEAD
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/VAInvoSys", "root", "Gaston7214mySQL");
+=======
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/?user=root", "root", "Gaston7214mySQL");
+>>>>>>> 1035ba617c5778f9a207a62dd8dcffb76b9f3fd9
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -104,7 +108,11 @@ class ServiceDAO {
 
     public ServiceDAO() {
         try {
+<<<<<<< HEAD
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/VAInvoSys", "root", "Gaston7214mySQL");
+=======
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/?user=root", "root", "Gaston7214mySQL");
+>>>>>>> 1035ba617c5778f9a207a62dd8dcffb76b9f3fd9
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -185,7 +193,11 @@ class InvoiceDAO {
 
     public InvoiceDAO() {
         try {
+<<<<<<< HEAD
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/VAInvoSys", "root", "Gaston7214mySQL");
+=======
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/?user=root", "root", "Gaston7214mySQL");
+>>>>>>> 1035ba617c5778f9a207a62dd8dcffb76b9f3fd9
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -271,7 +283,11 @@ class AnalyticsService {
 
     public AnalyticsService() {
         try {
+<<<<<<< HEAD
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/VAInvoSys", "root", "Gaston7214mySQL");
+=======
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/?user=root", "root", "Gaston7214mySQL");
+>>>>>>> 1035ba617c5778f9a207a62dd8dcffb76b9f3fd9
         } catch (SQLException e) {
             e.printStackTrace();
         }
