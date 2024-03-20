@@ -25,7 +25,7 @@ class ClientDAO {
 
     public ClientDAO() {
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/virtual_assistant", "username", "password");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/VAInvoSys", "root", "Gaston7214mySQL");
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -104,7 +104,7 @@ class ServiceDAO {
 
     public ServiceDAO() {
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/virtual_assistant", "username", "password");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/VAInvoSys", "root", "Gaston7214mySQL");
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -185,7 +185,7 @@ class InvoiceDAO {
 
     public InvoiceDAO() {
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/virtual_assistant", "username", "password");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/VAInvoSys", "root", "Gaston7214mySQL");
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -271,7 +271,7 @@ class AnalyticsService {
 
     public AnalyticsService() {
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/virtual_assistant", "username", "password");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/VAInvoSys", "root", "Gaston7214mySQL");
         } catch (SQLException e) {
             e.printStackTrace();
         }
